@@ -3,8 +3,8 @@
         font-size: 1.5rem;
     }
     #spnTraco{
-        left: 69px;
-        top: 25px;
+        left: 30px;
+        top: 18px;
         zoom: .8;
     }
     #sctCursos > div {
@@ -56,9 +56,17 @@
         font-size: .7rem;
     }
 }
+@media screen and (max-width: 402px){
+    #spnTraco{
+        right: 0;
+        left: 68px;
+        top: 16px;
+    }
+}
 @media screen and (max-width: 321px){
     #spnTraco{
-        right: 48px;
-        top: 60px;
+        right: 0;
+        left: -51px;
+        top: 49px;
     }
 }
