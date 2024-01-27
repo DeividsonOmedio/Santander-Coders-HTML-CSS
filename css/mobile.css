@@ -2,10 +2,10 @@
     main p{
         font-size: 1.5rem;
     }
-    #spnTraco svg{
-        zoom: 2;
-        left: 30px;
-        top: 14px;
+    #spnTraco{
+        left: 69px;
+        top: 25px;
+        zoom: .8;
     }
     #sctCursos > div {
         flex-direction: column;
@@ -54,5 +54,11 @@
     }
     #pFooter{
         font-size: .7rem;
+    }
+}
+@media screen and (max-width: 321px){
+    #spnTraco{
+        right: 48px;
+        top: 60px;
     }
 }
