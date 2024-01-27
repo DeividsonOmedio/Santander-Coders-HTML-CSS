@@ -1,0 +1,58 @@
+@media screen and (max-width: 600px) {
+    main p{
+        font-size: 1.5rem;
+    }
+    #spnTraco svg{
+        zoom: 2;
+        left: 30px;
+        top: 14px;
+    }
+    #sctCursos > div {
+        flex-direction: column;
+    }
+    #sctCursos h2{
+        line-height: 2rem;
+    }
+    .cardCursos:last-child{
+        order: -1;
+    }
+    .cardCursos:first-child{
+        display: none;
+    }
+    #navBtn button:nth-child(2n) {
+        display: none;
+    }
+    #navBtn span{
+        display: block;
+    }
+    #cardFooter{
+        display: none;
+    }
+    #sobre h2{
+        line-height: 3rem;
+    }
+    #sobre svg{
+        bottom: 57px;
+    }
+    #sobre > div{
+        flex-direction: column;
+    }
+    #divParagrafo{
+        width: 100%;
+    }
+    #divParagrafo > div > p{
+        width: 100%;
+    }
+    #imgCrianca{
+        order: -1;
+        max-width: 100% !important;
+        margin: 0 auto;
+        margin-top: -50px;
+    }
+    footer{
+        line-height: 3rem;
+    }
+    #pFooter{
+        font-size: .7rem;
+    }
+}

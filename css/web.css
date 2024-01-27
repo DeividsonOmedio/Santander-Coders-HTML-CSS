@@ -1,0 +1,279 @@
+body{
+    padding: 20px 50px;
+    max-width: 1280px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    gap: 10px;
+}
+#logo h1{
+    margin: 0;
+}
+menu{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 5px;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    background-image: linear-gradient(151deg, rgb(255, 235, 108) 0%, rgb(144, 223, 197) 86%);
+    border-radius: 20px;
+}
+main > img{
+    width: 51px;
+}
+main p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: -30px;
+}
+#spnIdeias{
+    color: var(--color-blue);
+    position: relative;
+    z-index: 1;
+}
+#spnTraco{
+    position: relative;
+    left: 30px;
+    top: 22px;
+}
+main nav{
+    display: flex;
+    gap: 10px;
+}
+main button{
+    background-color: #000;
+    color: #fff;
+    font-size: .6rem;
+    width: 66px;
+    padding: 2%;
+    border-radius: 30px;
+    border: none;
+}
+main button:hover{
+    cursor: pointer;
+}
+main a{
+    font-size: .6rem;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:visited{
+    color: #000;
+}
+#sctCursos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#sctCursos h2{
+    margin-top: 20px;
+    font-family: var(--font-poppins);
+    font-weight: 500;
+    font-size: xx-large;
+}
+#cardCursos h5, #skills{
+    font-family: var(--font-poppins);
+    font-weight: 500;
+}
+#sctCursos > div{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.cardCursos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cardCursos li{
+    list-style-type: none;
+    padding: 6px 10px;
+    border-radius: 20px;
+    width: fit-content;
+    text-align: center;
+    color: var(--color-white);
+    font-size: .4rem;
+}
+.cardCursos ul{
+    display: flex;
+    gap: 5px;
+    font-size: .7rem;
+}
+.cardCursos img{
+    max-width: 150%;
+    border-radius: 20px;
+}
+.cardCursos > nav{
+    display: flex;
+    gap: 10px;
+    font-size: .8rem;
+    margin-left: 10px;
+}
+.cardCursos a{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    gap: 3px;
+}
+#navBtn{
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    align-items: center;
+}
+#navBtn button{
+    background: var(--color-yellow);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#navBtn button:last-child{
+    rotate: 180deg;
+}
+#navBtn span{
+    display: none;
+}
+#sobre{
+    display: flex;
+    flex-direction: column;
+}
+#sobre h2{
+    font-family: var(--font-poppins);
+    font-weight: 500;
+    font-size: 3rem;
+}
+#sobre > div{
+    display: flex;
+}
+#sobre > svg{
+    position: relative;
+    bottom: 70px;
+    z-index: -1;
+}
+#sobre img{
+    width: 50%;
+    
+}
+#divParagrafo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+#divParagrafo > div > p{
+    border-left: 1px solid ;
+    padding-left: 10px;
+    width: 80%;
+}
+#divParagrafo > div p{
+    font-family: var( --font-nunito);
+    font-weight: 400;
+}
+#divParagrafo h4{
+    font-family: var(--font-poppins);
+    font-weight: 500;
+    font-size: 2rem;
+}
+#skills figure{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#imgCrianca{
+    max-width: 28%;
+}
+footer{
+    background-color: #111827;
+    border-radius: 15px 15px 0 0;
+    padding: 30px;
+    margin-top: 20px;
+    color: var(--color-white);
+    gap: 20px;
+}
+footer > .row{
+    justify-content: center;
+    gap: 20%;
+}
+footer .collum{
+    gap: 20px;
+}
+footer h2{
+    width: 80%;
+    font-size: 3rem;
+    font-family: var(--font-poppins);
+    font-weight: 500;
+}
+footer p{
+    font-size: 1.2rem;
+    font-family: var(--font-poppins);
+    font-weight: 400;
+}
+#email{
+    color: var(--color-white);
+    font-size: 1.2rem;
+    font-family: var(--font-poppins);
+    font-weight: 400;
+}
+footer nav{
+    gap: 10px;
+}
+footer nav img{
+    width: 30px;
+    border-radius: 5px;
+}
+#cardFooter{
+    max-width: 50%;
+}
+#pFooter{
+    text-align: center;
+    font-family: var(--font-poppins);
+    font-weight: 300;
+}
+.row{
+    display: flex;
+}
+.collum{
+    display: flex;
+    flex-direction: column;
+}
+.blue{
+    background-color: var(--color-blue);
+}
+.red{
+    background-color: var(--color-red);
+}
+.black{
+    background-color: var(--color-black);
+}
+.yellow{
+    background-color: var(--color-yellow);
+}
+.green{
+    background-color: var(--color-green);
+}
